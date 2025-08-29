@@ -2,6 +2,12 @@
 
 Este proyecto es un sistema de gestión para clínicas médicas desarrollado con Django. Permite administrar clínicas, pacientes, citas médicas y ubicaciones geográficas (ubigeo).
 
+#Participantes:
+
+-Cesar Martel SC
+-Miguel Ruiz
+-Sebastian Rosas
+
 ## Estructura del Proyecto
 
 El proyecto está organizado en las siguientes aplicaciones:
