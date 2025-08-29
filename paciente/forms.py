@@ -9,7 +9,10 @@ class PacienteForm(forms.ModelForm):
         fields = ['nombres', 'apellidos', 'dni', 'fecha_nacimiento', 
                  'telefono', 'email', 'direccion', 'ubigeo']
         widgets = {
-            'fecha_nacimiento': forms.DateInput(attrs={'type': 'date'}),
+            'fecha_nacimiento': forms.TextInput(attrs={
+                'class': 'datepicker',  # clase que usará Flatpickr
+                'autocomplete': 'off'
+            }),
             'direccion': forms.Textarea(attrs={'rows': 3}),
         }
     

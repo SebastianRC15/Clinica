@@ -29,3 +29,5 @@ class Paciente(models.Model):
         if self.ubigeo and self.ubigeo.clinica != self.clinica:
             raise ValueError("El ubigeo debe pertenecer a la misma clínica del paciente")
         super().save(*args, **kwargs)
+        
+    

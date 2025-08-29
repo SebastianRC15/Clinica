@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'ubigeo',
     'paciente',
     'cita',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -79,9 +80,9 @@ WSGI_APPLICATION = 'Config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'clinicas',      # Nombre de tu base de datos
+        'NAME': 'BDclinica',      # Nombre de tu base de datos
         'USER': 'root',         # Usuario de MySQL Workbench
-        'PASSWORD': '',  # Reemplaza con tu contraseña real
+        'PASSWORD': '123456',  # Reemplaza con tu contraseña real
         'HOST': 'localhost',     # Si MySQL está local, si no la IP del servidor
         'PORT': '3306',          # Puerto por defecto de MySQL
     }
